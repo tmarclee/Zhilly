@@ -89,6 +89,20 @@ Control the 8x WS2812 RGB LED ring:
 *   **Deep Sleep:** Long-press the **Power (PWR)** button to enter deep sleep for maximum battery saving.
 *   **Brightness Control:** Voice-adjust screen and LED intensity.
 
+### 📱 Supported Devices & Feature Matrix
+The Zhilly ecosystem supports a growing list of penetration testing and AI hardware. Here is a breakdown of the supported features by device:
+
+| Feature | T-Embed-CC1101 & Plus | T-Watch-S3 & Ultra *(soon)* | M5-Stack-Cardputer & ADV |
+|---------|:---------------------:|:---------------------------:|:------------------------:|
+| Voice Assistant (Mic/Speaker) | ✅ | ✅ | ✅ |
+| LCD / OLED Display | ✅ | ✅ | ✅ |
+| RF Sub-GHz (CC1101) | ✅ | ❌ | ❌ |
+| IR Blaster / TV-B-Gone | ✅ | ✅ | ✅ |
+| BadUSB (HID Emulation) | ✅ | ✅ | ✅ |
+| Wi-Fi (ARP / Port Scan) | ✅ | ✅ | ✅ |
+| NFC / RFID (PN532) | ✅ | ❌ | ❌ |
+| RGB LED Strip | ✅ | ❌ | ❌ |
+
 ---
 
 <h2 style="color: #9C27B0;">🛠️ Installation & Flashing</h2>
@@ -200,6 +214,20 @@ Sesli komutla klavye dilini değiştirebilirsiniz (örn. *"Klavye düzenini Tür
 *   **Batarya Durumu:** Pil seviyesini ve şarj durumunu sorgulayın.
 *   **Derin Uyku (Deep Sleep):** **Güç (PWR)** butonuna uzun basarak cihazı uyku moduna sokun.
 *   **Parlaklık Kontrolü:** Ekran ve LED parlaklığını sesli komutla değiştirin.
+
+### 📱 Desteklenen Cihazlar ve Özellik Tablosu
+Zhilly ekosistemi, sızma testleri ve yapay zeka odaklı çeşitli donanımları destekler. Aşağıda hangi cihazın hangi özellikleri desteklediğini görebilirsiniz:
+
+| Özellik | T-Embed-CC1101 & Plus | T-Watch-S3 & Ultra *(yakında)* | M5-Stack-Cardputer & ADV |
+|---------|:---------------------:|:------------------------------:|:------------------------:|
+| Sesli Asistan (Mikrofon/Hoparlör) | ✅ | ✅ | ✅ |
+| LCD / OLED Ekran | ✅ | ✅ | ✅ |
+| RF Sub-GHz (CC1101) | ✅ | ❌ | ❌ |
+| Kızılötesi / TV-B-Gone | ✅ | ✅ | ✅ |
+| BadUSB (HID Emülasyon) | ✅ | ✅ | ✅ |
+| Wi-Fi (ARP / Port Tarama) | ✅ | ✅ | ✅ |
+| NFC / RFID (PN532) | ✅ | ❌ | ❌ |
+| RGB LED Halkası | ✅ | ❌ | ❌ |
 
 ---
 
