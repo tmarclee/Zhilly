@@ -40,6 +40,8 @@ void AfeAudioProcessor::Initialize(AudioCodec* codec, int frame_duration_ms, srm
     afe_config->aec_mode = AEC_MODE_VOIP_HIGH_PERF;
     afe_config->vad_mode = VAD_MODE_0;
     afe_config->vad_min_noise_ms = 100;
+    afe_config->vad_ext_vad_max_pause_ms = 2000;
+
     if (vad_model_name != nullptr) {
         afe_config->vad_model_name = vad_model_name;
     }
